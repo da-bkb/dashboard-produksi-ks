@@ -55,9 +55,6 @@ def load_data(tipe_target):
 
 
 def aplikasi_utama():
-    if IS_LOCAL:
-        st.warning("🛠️ **DEVELOPMENT MODE (LOKAL):** Anda sedang melihat data PT KS di server lokal.")
-    
     st.markdown("<h1 style='text-align: center; color: #1E5631;'>🌴 DASHBOARD PRODUKSI PT KS</h1>", unsafe_allow_html=True)
     
     with st.sidebar:
